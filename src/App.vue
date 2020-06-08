@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png" />
-    <router-view />我的擦撒撒旦
+    <router-view />我的擦撒撒旦fsd 
   </div>
 </template>
 
