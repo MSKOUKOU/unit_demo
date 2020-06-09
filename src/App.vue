@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png" />
-    <router-view />我的擦撒撒旦fsd 
+    <router-view />
   </div>
 </template>
 
@@ -12,12 +11,16 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0;
+  padding: 0;
+  background: #C2D4EE;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
